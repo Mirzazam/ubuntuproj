@@ -1,3 +1,3 @@
 
-FROM mirzazam/httpdinit
+FROM hshar/webapp
 ADD . /var/www/html
