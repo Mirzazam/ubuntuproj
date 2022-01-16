@@ -1,5 +1,3 @@
 
-FROM mirzazam/httpdinit
-RUN sudo yum install httpd -y
-RUN sudo service start httpd
+FROM hshar/webapp
 ADD . /var/www/html
